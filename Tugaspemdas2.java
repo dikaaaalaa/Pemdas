@@ -18,13 +18,13 @@ public class Tugaspemdas2 {
         System.out.printf("Indeks massa tubuh (IMT) = %.2f\n", imt);
 
         //menentukan keterangan berdasarkan nilai IMT
-        if (imt <= 18.5){
+        if (imt < 18.5){
             System.out.println("keterangan: kurus");
         }
-        else if (imt < 18.5 & imt <= 25){
+        else if (imt < 25){
             System.out.println("keterangan: normal");
         }
-        else if (imt < 25 & imt <= 30){
+        else if (imt < 30){
             System.out.println("keterangan: gemuk");
         }
         else if(imt > 30){
@@ -33,5 +33,5 @@ public class Tugaspemdas2 {
         }
         //menutup scanner
    input.close();
-    } 
+    }
 }
